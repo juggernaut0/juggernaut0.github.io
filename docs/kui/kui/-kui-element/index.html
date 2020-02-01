@@ -1,0 +1,152 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>KuiElement - kui</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">kui</a>&nbsp;/&nbsp;<a href="../index.html">kui</a>&nbsp;/&nbsp;<a href="./index.html">KuiElement</a><br/>
+<br/>
+<h1>KuiElement</h1>
+<code><span class="keyword">abstract</span> <span class="keyword">class </span><span class="identifier">KuiElement</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../-kui-node/index.html"><span class="identifier">KuiNode</span></a></code>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="-init-.html">&lt;init&gt;</a></h4>
+</td>
+<td>
+<code><span class="identifier">KuiElement</span><span class="symbol">(</span><span class="identifier" id="kui.KuiElement$<init>(kotlin.String, kui.Props)/tag">tag</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="kui.KuiElement$<init>(kotlin.String, kui.Props)/props">props</span><span class="symbol">:</span>&nbsp;<a href="../-props/index.html"><span class="identifier">Props</span></a><span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="children.html">children</a></h4>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">children</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../-kui-node/index.html"><span class="identifier">KuiNode</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="node.html">node</a></h4>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">val </span><span class="identifier">node</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/org.w3c.dom/-node/index.html"><span class="identifier">Node</span></a><span class="symbol">?</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="add-child.html">addChild</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">addChild</span><span class="symbol">(</span><span class="identifier" id="kui.KuiElement$addChild(kui.KuiNode)/node">node</span><span class="symbol">:</span>&nbsp;<a href="../-kui-node/index.html"><span class="identifier">KuiNode</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="clear-event-listeners.html">clearEventListeners</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">clearEventListeners</span><span class="symbol">(</span><span class="identifier" id="kui.KuiElement$clearEventListeners(kotlin.String, org.w3c.dom.Element, kui.KuiElement)/event">event</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="kui.KuiElement$clearEventListeners(kotlin.String, org.w3c.dom.Element, kui.KuiElement)/elem">elem</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/org.w3c.dom/-element/index.html"><span class="identifier">Element</span></a><span class="symbol">, </span><span class="identifier" id="kui.KuiElement$clearEventListeners(kotlin.String, org.w3c.dom.Element, kui.KuiElement)/existing">existing</span><span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">KuiElement</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="customize-element.html">customizeElement</a></h4>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">customizeElement</span><span class="symbol">(</span><span class="identifier" id="kui.KuiElement$customizeElement(org.w3c.dom.Element, kui.KuiElement)/elem">elem</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/org.w3c.dom/-element/index.html"><span class="identifier">Element</span></a><span class="symbol">, </span><span class="identifier" id="kui.KuiElement$customizeElement(org.w3c.dom.Element, kui.KuiElement)/existing">existing</span><span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">KuiElement</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="render.html">render</a></h4>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">render</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/org.w3c.dom/-node/index.html"><span class="identifier">Node</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="render-against.html">renderAgainst</a></h4>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">renderAgainst</span><span class="symbol">(</span><span class="identifier" id="kui.KuiElement$renderAgainst(kui.KuiNode)/existing">existing</span><span class="symbol">:</span>&nbsp;<a href="../-kui-node/index.html"><span class="identifier">KuiNode</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/org.w3c.dom/-node/index.html"><span class="identifier">Node</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="swap-event-listener.html">swapEventListener</a></h4>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">swapEventListener</span><span class="symbol">(</span><span class="identifier" id="kui.KuiElement$swapEventListener(kotlin.String, org.w3c.dom.Element, kui.KuiElement, kotlin.Function1((org.w3c.dom.events.Event, kotlin.Unit)))/event">event</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="kui.KuiElement$swapEventListener(kotlin.String, org.w3c.dom.Element, kui.KuiElement, kotlin.Function1((org.w3c.dom.events.Event, kotlin.Unit)))/elem">elem</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/org.w3c.dom/-element/index.html"><span class="identifier">Element</span></a><span class="symbol">, </span><span class="identifier" id="kui.KuiElement$swapEventListener(kotlin.String, org.w3c.dom.Element, kui.KuiElement, kotlin.Function1((org.w3c.dom.events.Event, kotlin.Unit)))/existing">existing</span><span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">KuiElement</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="kui.KuiElement$swapEventListener(kotlin.String, org.w3c.dom.Element, kui.KuiElement, kotlin.Function1((org.w3c.dom.events.Event, kotlin.Unit)))/newListener">newListener</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/org.w3c.dom.events/-event/index.html"><span class="identifier">Event</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="../-checkbox-kui-element/index.html">CheckboxKuiElement</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">CheckboxKuiElement</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">KuiElement</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../-input-date-kui-element/index.html">InputDateKuiElement</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">InputDateKuiElement</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">KuiElement</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../-input-number-kui-element/index.html">InputNumberKuiElement</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">InputNumberKuiElement</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">KuiElement</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../-input-text-kui-element/index.html">InputTextKuiElement</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">InputTextKuiElement</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">KuiElement</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../-radio-kui-element/index.html">RadioKuiElement</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">RadioKuiElement</span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">KuiElement</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../-select-kui-element/index.html">SelectKuiElement</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">SelectKuiElement</span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">KuiElement</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../-simple-kui-element/index.html">SimpleKuiElement</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">SimpleKuiElement</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">KuiElement</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../-text-area-kui-element/index.html">TextAreaKuiElement</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">TextAreaKuiElement</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">KuiElement</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

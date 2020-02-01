@@ -1,0 +1,70 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>KuiNode - kui</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">kui</a>&nbsp;/&nbsp;<a href="../index.html">kui</a>&nbsp;/&nbsp;<a href="./index.html">KuiNode</a><br/>
+<br/>
+<h1>KuiNode</h1>
+<code><span class="keyword">interface </span><span class="identifier">KuiNode</span></code>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="node.html">node</a></h4>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">val </span><span class="identifier">node</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/org.w3c.dom/-node/index.html"><span class="identifier">Node</span></a><span class="symbol">?</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="render.html">render</a></h4>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">render</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/org.w3c.dom/-node/index.html"><span class="identifier">Node</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="render-against.html">renderAgainst</a></h4>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">renderAgainst</span><span class="symbol">(</span><span class="identifier" id="kui.KuiNode$renderAgainst(kui.KuiNode)/existing">existing</span><span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">KuiNode</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/org.w3c.dom/-node/index.html"><span class="identifier">Node</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="../-kui-component-node/index.html">KuiComponentNode</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">KuiComponentNode</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">KuiNode</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../-kui-element/index.html">KuiElement</a></h4>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">class </span><span class="identifier">KuiElement</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">KuiNode</span></a></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="../-kui-text-node/index.html">KuiTextNode</a></h4>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">KuiTextNode</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">KuiNode</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
