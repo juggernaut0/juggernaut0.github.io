@@ -1,0 +1,7 @@
+$dokka.format:html
+$dokka.linkExtension:html
+$dokka.location:asynclite$await(kotlin.js.Promise((asynclite.await.T)))asynclite/kotlin.js.-promise/await.html
+$dokka.location:asynclite$await(kotlin.js.Promise((kotlin.Result((asynclite.await.T)))))asynclite/kotlin.js.-promise/await.html
+$dokka.location:asynclite$unwrap(kotlin.js.Promise((kotlin.Result((asynclite.unwrap.T)))))asynclite/kotlin.js.-promise/unwrap.html
+$dokka.location:asynclite$wrap(kotlin.js.Promise((asynclite.wrap.T)))asynclite/kotlin.js.-promise/wrap.html
+asynclite
