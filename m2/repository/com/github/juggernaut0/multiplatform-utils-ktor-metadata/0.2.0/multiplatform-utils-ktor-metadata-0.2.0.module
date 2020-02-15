@@ -1,0 +1,54 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../multiplatform-utils-ktor/0.2.0/multiplatform-utils-ktor-0.2.0.module",
+    "group": "com.github.juggernaut0",
+    "module": "multiplatform-utils-ktor",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "emjam5nrhnavlmu2d4xtvs6aci"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.2.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-ktor-metadata-0.2.0.jar",
+          "url": "multiplatform-utils-ktor-metadata-0.2.0.jar",
+          "size": 1813,
+          "sha512": "9b6d4a3b246f6497b5dc51e072458db1aef9d6d54a6649883a30641e2b17159aae9b3b485aacae3b15115c9a8df00468d659cc50f7715382bb4335202b2e8930",
+          "sha256": "3a0a7b16296ddcca45f12826963ff98f2ab7b1c4ed300041d28bddbe01d4a9fc",
+          "sha1": "a642835dd6572a38117aaea13ce73e7db4dabaf2",
+          "md5": "2c263072c434a097d1cccf6e8833bc55"
+        }
+      ]
+    }
+  ]
+}
