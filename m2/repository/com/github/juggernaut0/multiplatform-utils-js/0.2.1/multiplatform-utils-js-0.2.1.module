@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../multiplatform-utils/0.2.1/multiplatform-utils-0.2.1.module",
+    "group": "com.github.juggernaut0",
+    "module": "multiplatform-utils",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "es477343uzawdivphl4k35ooxy"
+    }
+  },
+  "variants": [
+    {
+      "name": "js-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-runtime-js",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "async-lite",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-runtime-common",
+          "version": {
+            "requires": "0.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-js-0.2.1.jar",
+          "url": "multiplatform-utils-js-0.2.1.jar",
+          "size": 41623,
+          "sha512": "c3991ebf5c6294081cde1383311545207626bb30ba439ba0062898b1e7b955390b5c30a1634eb58317796168882de27c8efe94c3a9132d54a870db884d4a7b3b",
+          "sha256": "d9e9a41600dd3fcd183a8afdd2b34f50c78ca84ab4989713e1f1fdf5b1e4618c",
+          "sha1": "f289deba242296a39ba82fbe57e549702dc1189",
+          "md5": "ba49441e5191b33d865f9e59bc2022d0"
+        }
+      ]
+    },
+    {
+      "name": "js-runtime",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-runtime-js",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "async-lite",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-runtime-common",
+          "version": {
+            "requires": "0.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-js-0.2.1.jar",
+          "url": "multiplatform-utils-js-0.2.1.jar",
+          "size": 41623,
+          "sha512": "c3991ebf5c6294081cde1383311545207626bb30ba439ba0062898b1e7b955390b5c30a1634eb58317796168882de27c8efe94c3a9132d54a870db884d4a7b3b",
+          "sha256": "d9e9a41600dd3fcd183a8afdd2b34f50c78ca84ab4989713e1f1fdf5b1e4618c",
+          "sha1": "f289deba242296a39ba82fbe57e549702dc1189",
+          "md5": "ba49441e5191b33d865f9e59bc2022d0"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../multiplatform-utils-metadata/0.2.1/multiplatform-utils-metadata-0.2.1.module",
+        "group": "com.github.juggernaut0",
+        "module": "multiplatform-utils-metadata",
+        "version": "0.2.1"
+      }
+    }
+  ]
+}

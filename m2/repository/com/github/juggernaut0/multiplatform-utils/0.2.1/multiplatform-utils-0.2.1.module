@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.juggernaut0",
+    "module": "multiplatform-utils",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "es477343uzawdivphl4k35ooxy"
+    }
+  },
+  "variants": [
+    {
+      "name": "js-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../multiplatform-utils-js/0.2.1/multiplatform-utils-js-0.2.1.module",
+        "group": "com.github.juggernaut0",
+        "module": "multiplatform-utils-js",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "js-runtime",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../multiplatform-utils-js/0.2.1/multiplatform-utils-js-0.2.1.module",
+        "group": "com.github.juggernaut0",
+        "module": "multiplatform-utils-js",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../multiplatform-utils-jvm/0.2.1/multiplatform-utils-jvm-0.2.1.module",
+        "group": "com.github.juggernaut0",
+        "module": "multiplatform-utils-jvm",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../multiplatform-utils-jvm/0.2.1/multiplatform-utils-jvm-0.2.1.module",
+        "group": "com.github.juggernaut0",
+        "module": "multiplatform-utils-jvm",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../multiplatform-utils-metadata/0.2.1/multiplatform-utils-metadata-0.2.1.module",
+        "group": "com.github.juggernaut0",
+        "module": "multiplatform-utils-metadata",
+        "version": "0.2.1"
+      }
+    }
+  ]
+}
