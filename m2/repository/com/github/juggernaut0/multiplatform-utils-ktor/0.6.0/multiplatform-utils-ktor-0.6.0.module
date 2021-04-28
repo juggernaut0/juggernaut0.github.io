@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.juggernaut0",
+    "module": "multiplatform-utils-ktor",
+    "version": "0.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-ktor-metadata-0.6.0.jar",
+          "url": "multiplatform-utils-ktor-0.6.0.jar",
+          "size": 2865,
+          "sha512": "fb980840904b3645f1cb70d57c9b0c8ac5dda1fa46ed62d36feab3a6894efee741d73bccdb2681a377b53a6a14c373d958e559b64d52ee94644e37e7fe98b50c",
+          "sha256": "1cabcb09838acb0450abf8bb51adf888dcb83a811078da1d103a750a36dc1867",
+          "sha1": "343de53672706f1d68c22a3bb62c029da5b9a8ac",
+          "md5": "627a006b457d2baa21b89ee4baf06362"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../multiplatform-utils-ktor-js/0.6.0/multiplatform-utils-ktor-js-0.6.0.module",
+        "group": "com.github.juggernaut0",
+        "module": "multiplatform-utils-ktor-js",
+        "version": "0.6.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../multiplatform-utils-ktor-js/0.6.0/multiplatform-utils-ktor-js-0.6.0.module",
+        "group": "com.github.juggernaut0",
+        "module": "multiplatform-utils-ktor-js",
+        "version": "0.6.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../multiplatform-utils-ktor-jvm/0.6.0/multiplatform-utils-ktor-jvm-0.6.0.module",
+        "group": "com.github.juggernaut0",
+        "module": "multiplatform-utils-ktor-jvm",
+        "version": "0.6.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../multiplatform-utils-ktor-jvm/0.6.0/multiplatform-utils-ktor-jvm-0.6.0.module",
+        "group": "com.github.juggernaut0",
+        "module": "multiplatform-utils-ktor-jvm",
+        "version": "0.6.0"
+      }
+    }
+  ]
+}

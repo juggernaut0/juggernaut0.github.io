@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.juggernaut0",
+    "module": "multiplatform-utils",
+    "version": "0.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-properties",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-metadata-0.6.0.jar",
+          "url": "multiplatform-utils-0.6.0.jar",
+          "size": 6132,
+          "sha512": "46ce94e11b1ed0b402cf2c40af838582068557dce6f930a6813502fa0fa6e1f827136097ac4cfc684afd1edc73236f2530df2fc857e4b6a4d1223ad18231729b",
+          "sha256": "2ba6ffa07520336c2684f1b4e4911d549795a4ea3d08cc9424d97226ae804417",
+          "sha1": "282313af224de48cec19c4971f5dc97c360689bb",
+          "md5": "9a19668c17cf13d32a6c86776c926e63"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../multiplatform-utils-js/0.6.0/multiplatform-utils-js-0.6.0.module",
+        "group": "com.github.juggernaut0",
+        "module": "multiplatform-utils-js",
+        "version": "0.6.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../multiplatform-utils-js/0.6.0/multiplatform-utils-js-0.6.0.module",
+        "group": "com.github.juggernaut0",
+        "module": "multiplatform-utils-js",
+        "version": "0.6.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../multiplatform-utils-jvm/0.6.0/multiplatform-utils-jvm-0.6.0.module",
+        "group": "com.github.juggernaut0",
+        "module": "multiplatform-utils-jvm",
+        "version": "0.6.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../multiplatform-utils-jvm/0.6.0/multiplatform-utils-jvm-0.6.0.module",
+        "group": "com.github.juggernaut0",
+        "module": "multiplatform-utils-jvm",
+        "version": "0.6.0"
+      }
+    }
+  ]
+}

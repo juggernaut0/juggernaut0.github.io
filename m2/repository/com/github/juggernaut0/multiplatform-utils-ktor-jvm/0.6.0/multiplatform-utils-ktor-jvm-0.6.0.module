@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../multiplatform-utils-ktor/0.6.0/multiplatform-utils-ktor-0.6.0.module",
+    "group": "com.github.juggernaut0",
+    "module": "multiplatform-utils-ktor",
+    "version": "0.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-auth",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-ktor-jvm-0.6.0.jar",
+          "url": "multiplatform-utils-ktor-jvm-0.6.0.jar",
+          "size": 46947,
+          "sha512": "af6aece96ab3a48c11de9f8c00c1173a4a35e756d4e5fa4eb0cd9481539fa2b1ea278f9b7e04402902222c82d121432854218b81736f57e1e093bc99f298e768",
+          "sha256": "4438ad05e25b824a47bcf162d4688eda38720f079f703190f23251be5aeb57fb",
+          "sha1": "0d76214091a7fb5007177bf336af4c51003bae9b",
+          "md5": "5438af4c3889ef5b421c5590a8c18777"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-auth",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-ktor-jvm-0.6.0.jar",
+          "url": "multiplatform-utils-ktor-jvm-0.6.0.jar",
+          "size": 46947,
+          "sha512": "af6aece96ab3a48c11de9f8c00c1173a4a35e756d4e5fa4eb0cd9481539fa2b1ea278f9b7e04402902222c82d121432854218b81736f57e1e093bc99f298e768",
+          "sha256": "4438ad05e25b824a47bcf162d4688eda38720f079f703190f23251be5aeb57fb",
+          "sha1": "0d76214091a7fb5007177bf336af4c51003bae9b",
+          "md5": "5438af4c3889ef5b421c5590a8c18777"
+        }
+      ]
+    }
+  ]
+}
