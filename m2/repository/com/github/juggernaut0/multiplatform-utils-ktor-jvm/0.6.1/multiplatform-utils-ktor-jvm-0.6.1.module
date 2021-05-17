@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../multiplatform-utils-ktor/0.6.1/multiplatform-utils-ktor-0.6.1.module",
+    "group": "com.github.juggernaut0",
+    "module": "multiplatform-utils-ktor",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-auth",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-ktor-jvm-0.6.1.jar",
+          "url": "multiplatform-utils-ktor-jvm-0.6.1.jar",
+          "size": 46947,
+          "sha512": "b2d29ab31bd0b4066574179bbe6563848981d58fe4a020a44f6f49fb539728a512673be0c1f15251400d4646a158bfba0e812112d0d2b0738e17c64380c62cea",
+          "sha256": "9f68e3377b9ce8e11a40afe55bee115699cefc8013b6ac7306539a342cec04cc",
+          "sha1": "c805e60bf8e0a0dd31a406951688d61d5872a82d",
+          "md5": "7c5e65e14d2b0f7ddbc3d4b384b00b21"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-auth",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-ktor-jvm-0.6.1.jar",
+          "url": "multiplatform-utils-ktor-jvm-0.6.1.jar",
+          "size": 46947,
+          "sha512": "b2d29ab31bd0b4066574179bbe6563848981d58fe4a020a44f6f49fb539728a512673be0c1f15251400d4646a158bfba0e812112d0d2b0738e17c64380c62cea",
+          "sha256": "9f68e3377b9ce8e11a40afe55bee115699cefc8013b6ac7306539a342cec04cc",
+          "sha1": "c805e60bf8e0a0dd31a406951688d61d5872a82d",
+          "md5": "7c5e65e14d2b0f7ddbc3d4b384b00b21"
+        }
+      ]
+    }
+  ]
+}
