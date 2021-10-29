@@ -1,0 +1,16 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:kui.test////PointingToDeclaration/kui-test/kui.test/index.html
+$dokka.location:kui.test//assertMatchesHtml/#kotlin.String#kui.test.RenderedComponent[*]/PointingToDeclaration/kui-test/kui.test/assert-matches-html.html
+$dokka.location:kui.test//assertMatchesMarkup/#kui.test.RenderedComponent[*]#kotlin.Function1[kui.MarkupBuilder,kotlin.Unit]/PointingToDeclaration/kui-test/kui.test/assert-matches-markup.html
+$dokka.location:kui.test//assertMatchesMarkup/#kui.test.RenderedComponent[*]#kui.KuiNode/PointingToDeclaration/kui-test/kui.test/assert-matches-markup.html
+$dokka.location:kui.test//render/#TypeParam(bounds=[kui.Component])/PointingToDeclaration/kui-test/kui.test/render.html
+$dokka.location:kui.test//setValue/org.w3c.dom.Element#kotlin.String/PointingToDeclaration/kui-test/kui.test/set-value.html
+$dokka.location:kui.test/RenderedComponent///PointingToDeclaration/kui-test/kui.test/-rendered-component/index.html
+$dokka.location:kui.test/RenderedComponent/component/#/PointingToDeclaration/kui-test/kui.test/-rendered-component/component.html
+$dokka.location:kui.test/RenderedComponent/container/#/PointingToDeclaration/kui-test/kui.test/-rendered-component/container.html
+$dokka.location:kui.test/RenderedComponent/getByLabel/#kotlin.String/PointingToDeclaration/kui-test/kui.test/-rendered-component/get-by-label.html
+$dokka.location:kui.test/RenderedComponent/getBySelector/#kotlin.String/PointingToDeclaration/kui-test/kui.test/-rendered-component/get-by-selector.html
+$dokka.location:kui.test/RenderedComponent/setState/#kotlin.Function1[TypeParam(bounds=[kui.Component]),kotlin.Unit]/PointingToDeclaration/kui-test/kui.test/-rendered-component/set-state.html
+kui.test
+
