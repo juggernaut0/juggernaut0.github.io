@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../multiplatform-utils-ktor/0.6.5/multiplatform-utils-ktor-0.6.5.module",
+    "group": "com.github.juggernaut0",
+    "module": "multiplatform-utils-ktor",
+    "version": "0.6.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-auth",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.10"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.6.5"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-ktor-jvm-0.6.5.jar",
+          "url": "multiplatform-utils-ktor-jvm-0.6.5.jar",
+          "size": 47335,
+          "sha512": "bf983d92af65d5001695b0c49ae204371e9c457297011f0268d24efdd18460cb590436903f95665232c680e232d0bee8f1b05db7c90256b5797c6ed5fcbe2398",
+          "sha256": "d89ad7937c147e049f9eb1cb0b5c677adfec09997eb5d63bcff45a256fa3748e",
+          "sha1": "8e44fbc26231b84ba4baca6f95a24b3ca48cce91",
+          "md5": "a8690b775098a9d9b517cb64a9ab07ba"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-auth",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.10"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.6.5"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-ktor-jvm-0.6.5.jar",
+          "url": "multiplatform-utils-ktor-jvm-0.6.5.jar",
+          "size": 47335,
+          "sha512": "bf983d92af65d5001695b0c49ae204371e9c457297011f0268d24efdd18460cb590436903f95665232c680e232d0bee8f1b05db7c90256b5797c6ed5fcbe2398",
+          "sha256": "d89ad7937c147e049f9eb1cb0b5c677adfec09997eb5d63bcff45a256fa3748e",
+          "sha1": "8e44fbc26231b84ba4baca6f95a24b3ca48cce91",
+          "md5": "a8690b775098a9d9b517cb64a9ab07ba"
+        }
+      ]
+    }
+  ]
+}

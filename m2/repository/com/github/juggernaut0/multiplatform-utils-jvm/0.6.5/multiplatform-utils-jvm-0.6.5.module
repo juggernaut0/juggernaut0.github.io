@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../multiplatform-utils/0.6.5/multiplatform-utils-0.6.5.module",
+    "group": "com.github.juggernaut0",
+    "module": "multiplatform-utils",
+    "version": "0.6.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-properties",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-jvm-0.6.5.jar",
+          "url": "multiplatform-utils-jvm-0.6.5.jar",
+          "size": 24278,
+          "sha512": "45fca255c6aa9b4b2d96669257731ef6086b4b1cd19cb43a640ae6c1ad9455cd3cbd8c63e7d4b09f8a8b643cbfebd9dfd5a1877689543514865c85701da7b763",
+          "sha256": "88bec76d8b93df0a459b26cbc49244a07638c7a42357f03abef797416b667695",
+          "sha1": "d9b797ce45d65307b5d107d4e68a8142d21ecd86",
+          "md5": "ce9b75acdbc62ea2985168f65178e807"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-properties",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-jvm-0.6.5.jar",
+          "url": "multiplatform-utils-jvm-0.6.5.jar",
+          "size": 24278,
+          "sha512": "45fca255c6aa9b4b2d96669257731ef6086b4b1cd19cb43a640ae6c1ad9455cd3cbd8c63e7d4b09f8a8b643cbfebd9dfd5a1877689543514865c85701da7b763",
+          "sha256": "88bec76d8b93df0a459b26cbc49244a07638c7a42357f03abef797416b667695",
+          "sha1": "d9b797ce45d65307b5d107d4e68a8142d21ecd86",
+          "md5": "ce9b75acdbc62ea2985168f65178e807"
+        }
+      ]
+    }
+  ]
+}
