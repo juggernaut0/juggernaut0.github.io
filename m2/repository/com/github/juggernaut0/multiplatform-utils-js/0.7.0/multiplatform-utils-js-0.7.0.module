@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../multiplatform-utils/0.7.0/multiplatform-utils-0.7.0.module",
+    "group": "com.github.juggernaut0",
+    "module": "multiplatform-utils",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-properties",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.20"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "async-lite",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.6.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-js-0.7.0.jar",
+          "url": "multiplatform-utils-js-0.7.0.jar",
+          "size": 91892,
+          "sha512": "be5a93322e52c9ad216bd72d9b2a1ab2d99b671af8638f03d4d08b69075a8b4deebc7292e68e9b2dd49d57f5d4c4fee0393b98eea0a92b23eea60911e23161b9",
+          "sha256": "eb527aeb4b295a3d8df7a5bff6a57e7729e7364e5367c7894e7aa16b7f8424f4",
+          "sha1": "35a489f2d75f4de7f5c3ec314a1ec46e6d2ab06b",
+          "md5": "7baa146e32addcab4b216c4e49122300"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-properties",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.20"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "async-lite",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.6.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-js-0.7.0.jar",
+          "url": "multiplatform-utils-js-0.7.0.jar",
+          "size": 91892,
+          "sha512": "be5a93322e52c9ad216bd72d9b2a1ab2d99b671af8638f03d4d08b69075a8b4deebc7292e68e9b2dd49d57f5d4c4fee0393b98eea0a92b23eea60911e23161b9",
+          "sha256": "eb527aeb4b295a3d8df7a5bff6a57e7729e7364e5367c7894e7aa16b7f8424f4",
+          "sha1": "35a489f2d75f4de7f5c3ec314a1ec46e6d2ab06b",
+          "md5": "7baa146e32addcab4b216c4e49122300"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../multiplatform-utils-ktor/0.7.0/multiplatform-utils-ktor-0.7.0.module",
+    "group": "com.github.juggernaut0",
+    "module": "multiplatform-utils-ktor",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.20"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-ktor-jvm-0.7.0.jar",
+          "url": "multiplatform-utils-ktor-jvm-0.7.0.jar",
+          "size": 44981,
+          "sha512": "3d8d576dbde123a13bb4392c39220d1f333e94f8213bbd2398a69000b9f9cadb1989330fb3775e2a68c8f4f5d8ebf1d529b56a0884f21c9ccb1bbca2f043cac4",
+          "sha256": "fe649c979c5024b506ba4fdbef0df5a3c6f76cc35b260747c20a2ffe8c6417a9",
+          "sha1": "1c0e38176eb9e188ce3b105fd69eff38491eb7a9",
+          "md5": "b74918bb99523752380d3ed646db16ad"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.20"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-ktor-jvm-0.7.0.jar",
+          "url": "multiplatform-utils-ktor-jvm-0.7.0.jar",
+          "size": 44981,
+          "sha512": "3d8d576dbde123a13bb4392c39220d1f333e94f8213bbd2398a69000b9f9cadb1989330fb3775e2a68c8f4f5d8ebf1d529b56a0884f21c9ccb1bbca2f043cac4",
+          "sha256": "fe649c979c5024b506ba4fdbef0df5a3c6f76cc35b260747c20a2ffe8c6417a9",
+          "sha1": "1c0e38176eb9e188ce3b105fd69eff38491eb7a9",
+          "md5": "b74918bb99523752380d3ed646db16ad"
+        }
+      ]
+    }
+  ]
+}
