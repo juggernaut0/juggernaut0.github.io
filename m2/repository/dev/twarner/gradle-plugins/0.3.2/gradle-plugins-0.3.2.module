@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.twarner",
+    "module": "gradle-plugins",
+    "version": "0.3.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "gradle-plugins-0.3.2.jar",
+          "url": "gradle-plugins-0.3.2.jar",
+          "size": 45767,
+          "sha512": "26c6d1a3066edf8e7495492d048808158cc0c0607d66930fe11f567da2f117c91823ba8ebd55205a0eb17f902c70746f767cd9e471797cd0a4abf00b6090add8",
+          "sha256": "c3ccbd43c1b07545d6b54ab4e5b30510c91f87d320422423749b095889885c63",
+          "sha1": "0bf3604a02799b3770baf721cb9747bab67d92a2",
+          "md5": "6d95a6e398618e4529f9894c3dccbf6a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "de.undercouch",
+          "module": "gradle-download-task",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "com.bmuschko.docker-remote-api",
+          "module": "com.bmuschko.docker-remote-api.gradle.plugin",
+          "version": {
+            "requires": "9.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-plugins-0.3.2.jar",
+          "url": "gradle-plugins-0.3.2.jar",
+          "size": 45767,
+          "sha512": "26c6d1a3066edf8e7495492d048808158cc0c0607d66930fe11f567da2f117c91823ba8ebd55205a0eb17f902c70746f767cd9e471797cd0a4abf00b6090add8",
+          "sha256": "c3ccbd43c1b07545d6b54ab4e5b30510c91f87d320422423749b095889885c63",
+          "sha1": "0bf3604a02799b3770baf721cb9747bab67d92a2",
+          "md5": "6d95a6e398618e4529f9894c3dccbf6a"
+        }
+      ]
+    }
+  ]
+}
