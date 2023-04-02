@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.juggernaut0.kui",
+    "module": "kui",
+    "version": "0.15.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsLegacyApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kui-0.15.0.jar",
+          "url": "kui-0.15.0.jar",
+          "size": 51338,
+          "sha512": "da312fd0691833bbaa804930ae6bf32ae5b39c3490ccc9062fee888234b963ff87c0521099e293911461208641085e5023e7dca28f89bce7d055e05233879037",
+          "sha256": "22467e6cc3e63aea48246b780fbf82205a38f7c51390309fe6bdf2955498f8a1",
+          "sha1": "2c6eb6c4647d6f693e66f43980598ee669e3ad3f",
+          "md5": "245e0a30ad05fe4e17f7be84a3a4f2ee"
+        }
+      ]
+    },
+    {
+      "name": "jsLegacyRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kui-0.15.0.jar",
+          "url": "kui-0.15.0.jar",
+          "size": 51338,
+          "sha512": "da312fd0691833bbaa804930ae6bf32ae5b39c3490ccc9062fee888234b963ff87c0521099e293911461208641085e5023e7dca28f89bce7d055e05233879037",
+          "sha256": "22467e6cc3e63aea48246b780fbf82205a38f7c51390309fe6bdf2955498f8a1",
+          "sha1": "2c6eb6c4647d6f693e66f43980598ee669e3ad3f",
+          "md5": "245e0a30ad05fe4e17f7be84a3a4f2ee"
+        }
+      ]
+    },
+    {
+      "name": "commonFakeApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      }
+    },
+    {
+      "name": "jsIrApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kui-0.15.0.klib",
+          "url": "kui-0.15.0.klib",
+          "size": 73436,
+          "sha512": "aa88bbf302579496ebf5ad7d06c03341ec01ed1a1fce0f96349dab90ed2dcab937c7dc10c0b9e7884a7358a8350380dd7386b995878e334a2df7fcabceecce90",
+          "sha256": "8f87a34d056aaf3c8ed99b43727df6b9d787b1331232af92a1b4855975dd0309",
+          "sha1": "fa6b0cae0f6dc5175d15bb1a83409bfc6f58258a",
+          "md5": "c53e8cb457be181205e5479cdc5901c7"
+        }
+      ]
+    },
+    {
+      "name": "jsIrRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kui-0.15.0.klib",
+          "url": "kui-0.15.0.klib",
+          "size": 73436,
+          "sha512": "aa88bbf302579496ebf5ad7d06c03341ec01ed1a1fce0f96349dab90ed2dcab937c7dc10c0b9e7884a7358a8350380dd7386b995878e334a2df7fcabceecce90",
+          "sha256": "8f87a34d056aaf3c8ed99b43727df6b9d787b1331232af92a1b4855975dd0309",
+          "sha1": "fa6b0cae0f6dc5175d15bb1a83409bfc6f58258a",
+          "md5": "c53e8cb457be181205e5479cdc5901c7"
+        }
+      ]
+    },
+    {
+      "name": "jsLegacySourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kui-0.15.0-sources.jar",
+          "url": "kui-0.15.0-sources.jar",
+          "size": 8992,
+          "sha512": "2e0c200335587f41ce2a7669f758e6305ec25fe77a74f3a6162c234c27748e54c97d97fffeb61c7d6c9a8aabf5bbfc99bdb95a2ff801c39bb158f94944cda8e0",
+          "sha256": "9121c7d0bceb906e1bb1557cdbd85d65425323ff93e5ead652ab50bb398012b0",
+          "sha1": "0d1fe6094535c43c931a31e562af4150824ad2c0",
+          "md5": "1743dc536d745d950dcdaf9fe41ca7b2"
+        }
+      ]
+    }
+  ]
+}
