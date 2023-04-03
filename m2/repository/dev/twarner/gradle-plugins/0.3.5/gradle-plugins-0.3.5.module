@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.twarner",
+    "module": "gradle-plugins",
+    "version": "0.3.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.twarner",
+          "module": "download-firefox",
+          "version": {
+            "requires": "0.3.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-plugins-0.3.5.jar",
+          "url": "gradle-plugins-0.3.5.jar",
+          "size": 54386,
+          "sha512": "38b8ebf1629d23084f63178ad2896621c1cfffda3269a85df3b04535226a91420a8086ce98d12371e2c6e26251826f8d4d1b1b97a2d6824f1dbcdeea66af710f",
+          "sha256": "201021b37471d9c262c1df54d26f12ec466de8c0eec0e3ed1be8b9f5ec67e696",
+          "sha1": "7d434f33333010064b416d03919d821439b1d172",
+          "md5": "a54bbad21273833e677dfaa43f1e7d60"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "de.undercouch",
+          "module": "gradle-download-task",
+          "version": {
+            "requires": "5.3.1"
+          }
+        },
+        {
+          "group": "com.bmuschko.docker-remote-api",
+          "module": "com.bmuschko.docker-remote-api.gradle.plugin",
+          "version": {
+            "requires": "9.2.1"
+          }
+        },
+        {
+          "group": "dev.twarner",
+          "module": "download-firefox",
+          "version": {
+            "requires": "0.3.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-plugins-0.3.5.jar",
+          "url": "gradle-plugins-0.3.5.jar",
+          "size": 54386,
+          "sha512": "38b8ebf1629d23084f63178ad2896621c1cfffda3269a85df3b04535226a91420a8086ce98d12371e2c6e26251826f8d4d1b1b97a2d6824f1dbcdeea66af710f",
+          "sha256": "201021b37471d9c262c1df54d26f12ec466de8c0eec0e3ed1be8b9f5ec67e696",
+          "sha1": "7d434f33333010064b416d03919d821439b1d172",
+          "md5": "a54bbad21273833e677dfaa43f1e7d60"
+        }
+      ]
+    }
+  ]
+}
