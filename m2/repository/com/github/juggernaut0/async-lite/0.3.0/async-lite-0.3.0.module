@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.juggernaut0",
+    "module": "async-lite",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsLegacyApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "async-lite-0.3.0.jar",
+          "url": "async-lite-0.3.0.jar",
+          "size": 9761,
+          "sha512": "468dfb770e0d8f086babdea7440f6009bcedb7985eb9e962de51313f8bf4207bee9d6aef50f036edbc04d8d3a66ab9966a159811442865ff3d3f38388ec9be61",
+          "sha256": "85186da727d587855d338ff06a6d011098ca3b57b3d58d7d8f5e5cbba293256f",
+          "sha1": "0b85e24ea5cf9b443359add296c9c3420806fdbe",
+          "md5": "e03141320fb09d57ac76e54caf2c3ae8"
+        }
+      ]
+    },
+    {
+      "name": "jsLegacyRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "async-lite-0.3.0.jar",
+          "url": "async-lite-0.3.0.jar",
+          "size": 9761,
+          "sha512": "468dfb770e0d8f086babdea7440f6009bcedb7985eb9e962de51313f8bf4207bee9d6aef50f036edbc04d8d3a66ab9966a159811442865ff3d3f38388ec9be61",
+          "sha256": "85186da727d587855d338ff06a6d011098ca3b57b3d58d7d8f5e5cbba293256f",
+          "sha1": "0b85e24ea5cf9b443359add296c9c3420806fdbe",
+          "md5": "e03141320fb09d57ac76e54caf2c3ae8"
+        }
+      ]
+    },
+    {
+      "name": "commonFakeApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      }
+    },
+    {
+      "name": "jsIrApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "async-lite-0.3.0.klib",
+          "url": "async-lite-0.3.0.klib",
+          "size": 7648,
+          "sha512": "78ea47c47e1157a941fddc4ce313594c1a9b4d7fd771b46011ca53d395ba55890a271c7592a2e1116b8b6b4b8e01fd7e0c6e7e9b58bc06cb1d631a62bbc8649d",
+          "sha256": "d803cf53ef8f02e674485004439de088a75b6e2689b4394e2e155b6eb5a05507",
+          "sha1": "1942c06299acc1df18e0bf6635e36ec0751b6705",
+          "md5": "4f62236d7fd838e092a069fdfcbc62c3"
+        }
+      ]
+    },
+    {
+      "name": "jsIrRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "async-lite-0.3.0.klib",
+          "url": "async-lite-0.3.0.klib",
+          "size": 7648,
+          "sha512": "78ea47c47e1157a941fddc4ce313594c1a9b4d7fd771b46011ca53d395ba55890a271c7592a2e1116b8b6b4b8e01fd7e0c6e7e9b58bc06cb1d631a62bbc8649d",
+          "sha256": "d803cf53ef8f02e674485004439de088a75b6e2689b4394e2e155b6eb5a05507",
+          "sha1": "1942c06299acc1df18e0bf6635e36ec0751b6705",
+          "md5": "4f62236d7fd838e092a069fdfcbc62c3"
+        }
+      ]
+    },
+    {
+      "name": "jsLegacySourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "async-lite-0.3.0-sources.jar",
+          "url": "async-lite-0.3.0-sources.jar",
+          "size": 1134,
+          "sha512": "9ba9480d57d360cc7720fea1b2ef047fd22f8d19ee6b9d83c28a7a19758acb3c4a759e6a953d425ddf83efe261cd86362510a159db6168eb393617b5ed089028",
+          "sha256": "89f6e16c9155df011ada4e898c6558fcf92d2a02c03b839718af678efb6b8f54",
+          "sha1": "f62fbf60eb281474c7af131dbdfbb15e3c5b9f14",
+          "md5": "b7ee8459656e4e245c0c05a185f062db"
+        }
+      ]
+    }
+  ]
+}
