@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../multiplatform-utils/0.8.0/multiplatform-utils-0.8.0.module",
+    "group": "com.github.juggernaut0",
+    "module": "multiplatform-utils",
+    "version": "0.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-properties",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-jvm-0.8.0.jar",
+          "url": "multiplatform-utils-jvm-0.8.0.jar",
+          "size": 24414,
+          "sha512": "5b176c1c0f6d7328993bd75ac353044e07d52f14b3d807c6eb4871f92375f61a17276fe981869f888c9758d165e88dd3d4da978cdf84c95ca6f0676762150394",
+          "sha256": "308da82f3aabe6b927b6011b1d4aa35e19be17b194e18bb844fb725b418389d0",
+          "sha1": "0ae88e047249b39e8822936b22b73fe851d1383c",
+          "md5": "cd4396d3dbd4fa2e52c00eab89acbd76"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-properties",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-jvm-0.8.0.jar",
+          "url": "multiplatform-utils-jvm-0.8.0.jar",
+          "size": 24414,
+          "sha512": "5b176c1c0f6d7328993bd75ac353044e07d52f14b3d807c6eb4871f92375f61a17276fe981869f888c9758d165e88dd3d4da978cdf84c95ca6f0676762150394",
+          "sha256": "308da82f3aabe6b927b6011b1d4aa35e19be17b194e18bb844fb725b418389d0",
+          "sha1": "0ae88e047249b39e8822936b22b73fe851d1383c",
+          "md5": "cd4396d3dbd4fa2e52c00eab89acbd76"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "multiplatform-utils-jvm-0.8.0-sources.jar",
+          "url": "multiplatform-utils-jvm-0.8.0-sources.jar",
+          "size": 4014,
+          "sha512": "dd3df75652b14da64827a6aa5240d91251a8371ad1a5da7a9ecdf65d0d8979752df69ce0d655ab189324c738c616d83b6f3523e53d3f1f26071e85aa3fa46180",
+          "sha256": "a93923363922be54e9a2e6447bfd589caff9e1083ae72f8c6ba0739e1035beea",
+          "sha1": "46ac11c4116e2110627254bdf2ea2a7fd487f617",
+          "md5": "9e2666b216160b89986e7444b32ac87b"
+        }
+      ]
+    }
+  ]
+}
