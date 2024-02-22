@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.juggernaut0",
+    "module": "multiplatform-utils-javalin",
+    "version": "0.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.javalin",
+          "module": "javalin",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-javalin-0.10.0.jar",
+          "url": "multiplatform-utils-javalin-0.10.0.jar",
+          "size": 17377,
+          "sha512": "70ff77ec09b2234406cee48ce31bdb16abd3e65de81189208168d33ff336f682845a744e73f070f57f2de809be2e2fd99306b1b452b68e6638a9ba834e65896c",
+          "sha256": "98745baac2c04672ecdaf560ff66b50442b509d1a45080b256e142a6d1f24d5b",
+          "sha1": "f3582be69be554c9ec70efcf34eb507951cb8629",
+          "md5": "ac6e151ad44bd18e89ff0c35b8a08f32"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.javalin",
+          "module": "javalin",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-utils-javalin-0.10.0.jar",
+          "url": "multiplatform-utils-javalin-0.10.0.jar",
+          "size": 17377,
+          "sha512": "70ff77ec09b2234406cee48ce31bdb16abd3e65de81189208168d33ff336f682845a744e73f070f57f2de809be2e2fd99306b1b452b68e6638a9ba834e65896c",
+          "sha256": "98745baac2c04672ecdaf560ff66b50442b509d1a45080b256e142a6d1f24d5b",
+          "sha1": "f3582be69be554c9ec70efcf34eb507951cb8629",
+          "md5": "ac6e151ad44bd18e89ff0c35b8a08f32"
+        }
+      ]
+    }
+  ]
+}
