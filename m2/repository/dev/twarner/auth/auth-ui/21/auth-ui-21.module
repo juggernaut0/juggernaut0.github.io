@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.twarner.auth",
+    "module": "auth-ui",
+    "version": "21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "dev.twarner.auth",
+          "module": "auth-common",
+          "version": {
+            "requires": "21"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0.kui",
+          "module": "kui",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-ui-21.klib",
+          "url": "auth-ui-21.klib",
+          "size": 26242,
+          "sha512": "1fb35f72983ee1ed09c087539a9ead5be5ea6af125c73c15644ad3e0ec60d433bdd6d05b6c0ffeed347a988ba67f6147549e2f49acd810901c63840f40ed6c76",
+          "sha256": "cff85908978be1afe1c4771204e27d5e182a5685a7ac521a75d2522e0584ed74",
+          "sha1": "d67b6c9c577defec8bb4ef30b3bd55ad22bd77ba",
+          "md5": "fa4fb4155662672fe4c435658fde95ef"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "dev.twarner.auth",
+          "module": "auth-common",
+          "version": {
+            "requires": "21"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0.kui",
+          "module": "kui",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "async-lite",
+          "version": {
+            "requires": "0.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-ui-21.klib",
+          "url": "auth-ui-21.klib",
+          "size": 26242,
+          "sha512": "1fb35f72983ee1ed09c087539a9ead5be5ea6af125c73c15644ad3e0ec60d433bdd6d05b6c0ffeed347a988ba67f6147549e2f49acd810901c63840f40ed6c76",
+          "sha256": "cff85908978be1afe1c4771204e27d5e182a5685a7ac521a75d2522e0584ed74",
+          "sha1": "d67b6c9c577defec8bb4ef30b3bd55ad22bd77ba",
+          "md5": "fa4fb4155662672fe4c435658fde95ef"
+        }
+      ]
+    },
+    {
+      "name": "commonFakeApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "auth-ui-21-sources.jar",
+          "url": "auth-ui-21-sources.jar",
+          "size": 3930,
+          "sha512": "e677a6e9e11bdbd18de1f08adc63e09a43d8ff874dfe12078d96a3223fd0dfc93479fef5ea296fcb8d6488b53d73e07640cc7ef485591b8f95afa883f557cfdb",
+          "sha256": "0ab5debe94c7aed093ac8ef61d3060f89df90a0be2da79f12ae6e2bb1439222c",
+          "sha1": "e1b6ff8f3d760917bd419fe3957a592c565350ac",
+          "md5": "1c6eba44bd6d2649bfe09079d3e978f5"
+        }
+      ]
+    }
+  ]
+}
