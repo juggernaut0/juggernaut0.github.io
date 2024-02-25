@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../auth-common/22/auth-common-22.module",
+    "group": "dev.twarner.auth",
+    "module": "auth-common",
+    "version": "22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-js-22.klib",
+          "url": "auth-common-js-22.klib",
+          "size": 21628,
+          "sha512": "761e70d8486c01be7644c5f43e3e9c11f82308c91046bf2f10595cbe5ab0f9b8baea15222db30d794941625dfc9c605061dd3d079b5e8890df363cc347010fa8",
+          "sha256": "c8597ab8f27e9b950e3d52aaf685e836e5e243cf777c39a05269e7b9a35beae6",
+          "sha1": "0b9dff6e60812bb9cba28811e72310b227c9f3c3",
+          "md5": "55dfe9ec6f3f38d2b3f8432d65f1e3f8"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-js-22.klib",
+          "url": "auth-common-js-22.klib",
+          "size": 21628,
+          "sha512": "761e70d8486c01be7644c5f43e3e9c11f82308c91046bf2f10595cbe5ab0f9b8baea15222db30d794941625dfc9c605061dd3d079b5e8890df363cc347010fa8",
+          "sha256": "c8597ab8f27e9b950e3d52aaf685e836e5e243cf777c39a05269e7b9a35beae6",
+          "sha1": "0b9dff6e60812bb9cba28811e72310b227c9f3c3",
+          "md5": "55dfe9ec6f3f38d2b3f8432d65f1e3f8"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "auth-common-js-22-sources.jar",
+          "url": "auth-common-js-22-sources.jar",
+          "size": 1821,
+          "sha512": "53e4781b9fd55c8a5f4ec9683744f63556f017bb188b8d84e80821e2668c1abcc11db4cd4ed73bae94149550b48c41e8120bbde16b64dfbe459facf668cfb001",
+          "sha256": "5f9a2898653910ab85496857a0007f9f548214419061516898c199b04469700a",
+          "sha1": "6d4b9fb49db5fc3033968bdba5ce6fd2ea72cc0d",
+          "md5": "00ca8966422dc9ad41b7de4e5a59c779"
+        }
+      ]
+    }
+  ]
+}

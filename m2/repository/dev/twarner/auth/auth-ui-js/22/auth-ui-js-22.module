@@ -1,0 +1,148 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../auth-ui/22/auth-ui-22.module",
+    "group": "dev.twarner.auth",
+    "module": "auth-ui",
+    "version": "22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "dev.twarner.auth",
+          "module": "auth-common",
+          "version": {
+            "requires": "22"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0.kui",
+          "module": "kui",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-ui-js-22.klib",
+          "url": "auth-ui-js-22.klib",
+          "size": 26243,
+          "sha512": "68304c4ff37d267797f8f5f84b54dfafa7dfcf473ade7669f003e745fa1e516e6e520bb8044fecd89bf60b091e3841abf6c2e9f2b04d915c1bf00b72220a8890",
+          "sha256": "b5255af6fe7e1126b2d39369e209380f7297f4de26ee5a35d8ac85cb8c60bada",
+          "sha1": "e751b5172e4d7c8070bda92453f55b931266c026",
+          "md5": "0d69b063a746718e03c33793185b6ee0"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "dev.twarner.auth",
+          "module": "auth-common",
+          "version": {
+            "requires": "22"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0.kui",
+          "module": "kui",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "async-lite",
+          "version": {
+            "requires": "0.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-ui-js-22.klib",
+          "url": "auth-ui-js-22.klib",
+          "size": 26243,
+          "sha512": "68304c4ff37d267797f8f5f84b54dfafa7dfcf473ade7669f003e745fa1e516e6e520bb8044fecd89bf60b091e3841abf6c2e9f2b04d915c1bf00b72220a8890",
+          "sha256": "b5255af6fe7e1126b2d39369e209380f7297f4de26ee5a35d8ac85cb8c60bada",
+          "sha1": "e751b5172e4d7c8070bda92453f55b931266c026",
+          "md5": "0d69b063a746718e03c33793185b6ee0"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "auth-ui-js-22-sources.jar",
+          "url": "auth-ui-js-22-sources.jar",
+          "size": 3958,
+          "sha512": "58c8ff4108bd3651b4d48d5cb73becca93b7880548d618481df36af4c2331a1fbde82b48fccdf8d193476ad7381e9e7596c244d3744c7f82acdb9ceea0cb80c0",
+          "sha256": "7b2aead4596cc9637b857e42476f96724def3f7c00e89c7d5fd836c788a9601d",
+          "sha1": "8519d112dc45c58706d417297305be7a464a692a",
+          "md5": "48d25dfc3f89b4430a75c75856cd0cd3"
+        }
+      ]
+    }
+  ]
+}
