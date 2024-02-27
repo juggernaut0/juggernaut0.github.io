@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.twarner.gradle",
+    "module": "kotlin-web",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlin-web-1.0.2.jar",
+          "url": "kotlin-web-1.0.2.jar",
+          "size": 27396,
+          "sha512": "ec9dfc6c2238a62a359de4565ebd90befab2144d3a2717887685a7d9bfc993e52d84f48cec0bb9d0dff9a419374fb5d5611125e0ff1e23b98fbf754363e2238b",
+          "sha256": "bbcd618353bc03fa6583e66bd8b194c27fef080743823bfab87947b2b893fd52",
+          "sha1": "3810a023acc7a2eac3a41c6667224fdf81fff49d",
+          "md5": "6f3150b9a8b7b5dbc64dbb6cc3129dce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.20"
+          }
+        },
+        {
+          "group": "dev.twarner.gradle",
+          "module": "sass",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "dev.twarner.gradle",
+          "module": "download-firefox",
+          "version": {
+            "requires": "1.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-web-1.0.2.jar",
+          "url": "kotlin-web-1.0.2.jar",
+          "size": 27396,
+          "sha512": "ec9dfc6c2238a62a359de4565ebd90befab2144d3a2717887685a7d9bfc993e52d84f48cec0bb9d0dff9a419374fb5d5611125e0ff1e23b98fbf754363e2238b",
+          "sha256": "bbcd618353bc03fa6583e66bd8b194c27fef080743823bfab87947b2b893fd52",
+          "sha1": "3810a023acc7a2eac3a41c6667224fdf81fff49d",
+          "md5": "6f3150b9a8b7b5dbc64dbb6cc3129dce"
+        }
+      ]
+    }
+  ]
+}

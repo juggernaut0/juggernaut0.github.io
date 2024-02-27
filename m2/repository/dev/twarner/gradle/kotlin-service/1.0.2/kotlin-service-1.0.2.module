@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.twarner.gradle",
+    "module": "kotlin-service",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlin-service-1.0.2.jar",
+          "url": "kotlin-service-1.0.2.jar",
+          "size": 17376,
+          "sha512": "a3377c0a156e217f5f78f2b573c1eb1e0a35a6c84876ac098600b79eba2f653a988ec73f9951059db2f92d672a469f329cfade230361c369eb51470bf354202b",
+          "sha256": "fbb248a4faca5f5f9bb5d3e61c0067342f37734db17f04f0d1441717d72a8b64",
+          "sha1": "0d2b8b04f499fc9802f35f4aea1fd9c1d05c0156",
+          "md5": "eae7d592928d932c0e9c9dc71e97fedb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.20"
+          }
+        },
+        {
+          "group": "dev.twarner.gradle",
+          "module": "docker",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "dev.twarner.gradle",
+          "module": "common-utils",
+          "version": {
+            "requires": "1.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-service-1.0.2.jar",
+          "url": "kotlin-service-1.0.2.jar",
+          "size": 17376,
+          "sha512": "a3377c0a156e217f5f78f2b573c1eb1e0a35a6c84876ac098600b79eba2f653a988ec73f9951059db2f92d672a469f329cfade230361c369eb51470bf354202b",
+          "sha256": "fbb248a4faca5f5f9bb5d3e61c0067342f37734db17f04f0d1441717d72a8b64",
+          "sha1": "0d2b8b04f499fc9802f35f4aea1fd9c1d05c0156",
+          "md5": "eae7d592928d932c0e9c9dc71e97fedb"
+        }
+      ]
+    }
+  ]
+}
