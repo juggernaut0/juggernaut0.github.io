@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.twarner.gradle",
+    "module": "kotlin-api",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlin-api-1.0.3.jar",
+          "url": "kotlin-api-1.0.3.jar",
+          "size": 22883,
+          "sha512": "2d1c1e84cbe31aa4d51ef047d57da06b00471e066957813be250a2bab651ca613f1e5b664db0b34cf4e18d9a6688513bcf74b00c6a1dadb12f8ef0fec03f7cab",
+          "sha256": "7e92575e766acf60529481018f390b64f6091afe8b21c7267a9749aff1d015fa",
+          "sha1": "d12870789255f58a46b0fc1aef346bb159688f28",
+          "md5": "7b42f19a6ae2632932111e442371745b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-serialization",
+          "version": {
+            "requires": "1.9.20"
+          }
+        },
+        {
+          "group": "dev.twarner.gradle",
+          "module": "download-firefox",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "dev.twarner.gradle",
+          "module": "common-utils",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "io.swagger.parser.v3",
+          "module": "swagger-parser",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-api-1.0.3.jar",
+          "url": "kotlin-api-1.0.3.jar",
+          "size": 22883,
+          "sha512": "2d1c1e84cbe31aa4d51ef047d57da06b00471e066957813be250a2bab651ca613f1e5b664db0b34cf4e18d9a6688513bcf74b00c6a1dadb12f8ef0fec03f7cab",
+          "sha256": "7e92575e766acf60529481018f390b64f6091afe8b21c7267a9749aff1d015fa",
+          "sha1": "d12870789255f58a46b0fc1aef346bb159688f28",
+          "md5": "7b42f19a6ae2632932111e442371745b"
+        }
+      ]
+    }
+  ]
+}

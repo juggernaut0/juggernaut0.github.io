@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.twarner.gradle",
+    "module": "download-firefox",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "download-firefox-1.0.3.jar",
+          "url": "download-firefox-1.0.3.jar",
+          "size": 27428,
+          "sha512": "7af411c2f9e0ed78378d7dc7dca4099e08fbb78d7433c0ee5eff06f5d3962b603453ef7625fd53a1597268ebcae8d1047f7ecd156aab90e5a6fc8d1c0e92f17c",
+          "sha256": "f756be06fab20d301783797818371ad0c5850a566ed30e25e5b40aea3100c3e3",
+          "sha1": "4e228c7b23f9e09b39d621e913cdeb8f8c51b665",
+          "md5": "030e6cb6e1c25ec3819f233dba5c6398"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "de.undercouch",
+          "module": "gradle-download-task",
+          "version": {
+            "requires": "5.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "download-firefox-1.0.3.jar",
+          "url": "download-firefox-1.0.3.jar",
+          "size": 27428,
+          "sha512": "7af411c2f9e0ed78378d7dc7dca4099e08fbb78d7433c0ee5eff06f5d3962b603453ef7625fd53a1597268ebcae8d1047f7ecd156aab90e5a6fc8d1c0e92f17c",
+          "sha256": "f756be06fab20d301783797818371ad0c5850a566ed30e25e5b40aea3100c3e3",
+          "sha1": "4e228c7b23f9e09b39d621e913cdeb8f8c51b665",
+          "md5": "030e6cb6e1c25ec3819f233dba5c6398"
+        }
+      ]
+    }
+  ]
+}
