@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../auth-common/23/auth-common-23.module",
+    "group": "dev.twarner.auth",
+    "module": "auth-common",
+    "version": "23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-jvm-23.jar",
+          "url": "auth-common-jvm-23.jar",
+          "size": 37258,
+          "sha512": "0f72703a2314796d1149ebc9c0767d799dfde5ee30064b3df260b9db758e8f2ad8119c935f19d24364a5df5c9fc08bff58324a6c38c6fb5e652f5ee727d1edf3",
+          "sha256": "1b251ae444d4f4dca11850c674d04b04b93baacc5b5ca9724b536d3215ed4be2",
+          "sha1": "873c70509fcfa9618fe0dd3a00765340a3e0be6d",
+          "md5": "d29ae19b33269db7568bcfa4b8b64fef"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-jvm-23.jar",
+          "url": "auth-common-jvm-23.jar",
+          "size": 37258,
+          "sha512": "0f72703a2314796d1149ebc9c0767d799dfde5ee30064b3df260b9db758e8f2ad8119c935f19d24364a5df5c9fc08bff58324a6c38c6fb5e652f5ee727d1edf3",
+          "sha256": "1b251ae444d4f4dca11850c674d04b04b93baacc5b5ca9724b536d3215ed4be2",
+          "sha1": "873c70509fcfa9618fe0dd3a00765340a3e0be6d",
+          "md5": "d29ae19b33269db7568bcfa4b8b64fef"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "auth-common-jvm-23-sources.jar",
+          "url": "auth-common-jvm-23-sources.jar",
+          "size": 1821,
+          "sha512": "53e4781b9fd55c8a5f4ec9683744f63556f017bb188b8d84e80821e2668c1abcc11db4cd4ed73bae94149550b48c41e8120bbde16b64dfbe459facf668cfb001",
+          "sha256": "5f9a2898653910ab85496857a0007f9f548214419061516898c199b04469700a",
+          "sha1": "6d4b9fb49db5fc3033968bdba5ce6fd2ea72cc0d",
+          "md5": "00ca8966422dc9ad41b7de4e5a59c779"
+        }
+      ]
+    }
+  ]
+}

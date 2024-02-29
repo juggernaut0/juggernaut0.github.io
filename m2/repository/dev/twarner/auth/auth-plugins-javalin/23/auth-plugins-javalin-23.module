@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.twarner.auth",
+    "module": "auth-plugins-javalin",
+    "version": "23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.twarner.auth",
+          "module": "auth-common",
+          "version": {
+            "requires": "23"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils-javalin",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-plugins-javalin-23.jar",
+          "url": "auth-plugins-javalin-23.jar",
+          "size": 12637,
+          "sha512": "5a33bf8c8b1ba0f82711f97b6bc9751c83e01af30fc2285fb415920a93e999aa9aa3cdae0bde73e9e58b61fbe3948541c5bada07c0a40098ea8163b41392def3",
+          "sha256": "d7e659a3ff679c94e3275a7a7733597db0805df05c313ae2ccce83d8dfe3945f",
+          "sha1": "59547e31ec120c99c5c67fe261db0e6b667be25c",
+          "md5": "eefed04c2f55677a0939486625cb08a9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.twarner.auth",
+          "module": "auth-common",
+          "version": {
+            "requires": "23"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils-javalin",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-plugins-javalin-23.jar",
+          "url": "auth-plugins-javalin-23.jar",
+          "size": 12637,
+          "sha512": "5a33bf8c8b1ba0f82711f97b6bc9751c83e01af30fc2285fb415920a93e999aa9aa3cdae0bde73e9e58b61fbe3948541c5bada07c0a40098ea8163b41392def3",
+          "sha256": "d7e659a3ff679c94e3275a7a7733597db0805df05c313ae2ccce83d8dfe3945f",
+          "sha1": "59547e31ec120c99c5c67fe261db0e6b667be25c",
+          "md5": "eefed04c2f55677a0939486625cb08a9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "auth-plugins-javalin-23-sources.jar",
+          "url": "auth-plugins-javalin-23-sources.jar",
+          "size": 1779,
+          "sha512": "c5ea24111aaf058f0bffa228c71f9d2c5cfbe6a06d33e39c0ae37f0e3ba4785be20826ae5f3398417e57546dce7d34fb087afeff24250b53b5a229c148b6ea5a",
+          "sha256": "f7499894716f62e0f6e032579b83065ba88a2d14f280f00318723978d41b6631",
+          "sha1": "cfc302ea6eb2706332ba29a968d4fd1c564d49d4",
+          "md5": "29c92167fcdcc3607d3ef063fc26d8f7"
+        }
+      ]
+    }
+  ]
+}
