@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.twarner.gradle",
+    "module": "kotlin-yarn",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlin-yarn-1.0.5.jar",
+          "url": "kotlin-yarn-1.0.5.jar",
+          "size": 30816,
+          "sha512": "e2959ac8610063821c1a4c9b90f0f2ed9a9e7fc04a0cf4e179bcda2dadaf56663ed625321400ec0232d9ddf28c5bfe264748f0aa3fa106fea507e6e825ef7979",
+          "sha256": "17ec5ded08e0825cb9a5fcb5b34fa5400b01c4bcadcda101b6639a32db3929dc",
+          "sha1": "9b7e5472cc5dc45f998042dde39325c9d88260e1",
+          "md5": "f385f3c0f155254a430a5360c55b8fef"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-yarn-1.0.5.jar",
+          "url": "kotlin-yarn-1.0.5.jar",
+          "size": 30816,
+          "sha512": "e2959ac8610063821c1a4c9b90f0f2ed9a9e7fc04a0cf4e179bcda2dadaf56663ed625321400ec0232d9ddf28c5bfe264748f0aa3fa106fea507e6e825ef7979",
+          "sha256": "17ec5ded08e0825cb9a5fcb5b34fa5400b01c4bcadcda101b6639a32db3929dc",
+          "sha1": "9b7e5472cc5dc45f998042dde39325c9d88260e1",
+          "md5": "f385f3c0f155254a430a5360c55b8fef"
+        }
+      ]
+    }
+  ]
+}

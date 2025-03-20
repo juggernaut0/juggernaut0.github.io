@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.twarner.gradle",
+    "module": "common-utils",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-utils-1.0.5.jar",
+          "url": "common-utils-1.0.5.jar",
+          "size": 5501,
+          "sha512": "58870298038b347b18ba16d654584bb1ab9c6b49296c68f60f154894a6dc5a5fb0a07c1319730793fbfa8d942ee70db9c4d782aa5e09f594349682e71ac5c9df",
+          "sha256": "1ae240c4de083166d4b10f7bef2dd6f09fb66a8294ead926c2959182fa577f83",
+          "sha1": "6878a37e561e2ca863aa5cf6a376d1137fbd7dfd",
+          "md5": "a8ee2ee26134dd2406da9c36b7e50920"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-utils-1.0.5.jar",
+          "url": "common-utils-1.0.5.jar",
+          "size": 5501,
+          "sha512": "58870298038b347b18ba16d654584bb1ab9c6b49296c68f60f154894a6dc5a5fb0a07c1319730793fbfa8d942ee70db9c4d782aa5e09f594349682e71ac5c9df",
+          "sha256": "1ae240c4de083166d4b10f7bef2dd6f09fb66a8294ead926c2959182fa577f83",
+          "sha1": "6878a37e561e2ca863aa5cf6a376d1137fbd7dfd",
+          "md5": "a8ee2ee26134dd2406da9c36b7e50920"
+        }
+      ]
+    }
+  ]
+}
