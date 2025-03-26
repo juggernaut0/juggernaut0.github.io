@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.twarner.gradle",
+    "module": "kotlin-web",
+    "version": "1.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlin-web-1.0.6.jar",
+          "url": "kotlin-web-1.0.6.jar",
+          "size": 26755,
+          "sha512": "203df718bab0622ecc01bbe56ca46858a90417c7c9daa09db09707f0c50393c6cea0c36b8ee15bb7d7a57f709fe9ec22140883f5efa37be479f825a294403805",
+          "sha256": "3efd0d6683226d5eead0f4de949d83ad76c90ddfe48617f686911616f96bbfe8",
+          "sha1": "c6c918b7a5ee4a8c0c6a85e7c685716b57efbd4c",
+          "md5": "0656e3b1f406a21849c51558f8c2b9d0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin"
+        },
+        {
+          "group": "dev.twarner.gradle",
+          "module": "sass",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "dev.twarner.gradle",
+          "module": "download-firefox",
+          "version": {
+            "requires": "1.0.6"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-web-1.0.6.jar",
+          "url": "kotlin-web-1.0.6.jar",
+          "size": 26755,
+          "sha512": "203df718bab0622ecc01bbe56ca46858a90417c7c9daa09db09707f0c50393c6cea0c36b8ee15bb7d7a57f709fe9ec22140883f5efa37be479f825a294403805",
+          "sha256": "3efd0d6683226d5eead0f4de949d83ad76c90ddfe48617f686911616f96bbfe8",
+          "sha1": "c6c918b7a5ee4a8c0c6a85e7c685716b57efbd4c",
+          "md5": "0656e3b1f406a21849c51558f8c2b9d0"
+        }
+      ]
+    }
+  ]
+}

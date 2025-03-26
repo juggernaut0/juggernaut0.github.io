@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.twarner.gradle",
+    "module": "db",
+    "version": "1.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "db-1.0.6.jar",
+          "url": "db-1.0.6.jar",
+          "size": 44797,
+          "sha512": "17d39bb10fd4f2b529a4c3066e65546f6ee3381177168788dcd67122e139711919af8720bdf98c801e0a3e378375be9d0a3fb11dc461c41b6d9ebcd585fbd917",
+          "sha256": "a05d8bbcfb81c67b08a23e44723ef8e21707ac44e791081cc8e33348080ea04b",
+          "sha1": "4777d18166c03a3a3e2869db91ce9f66f707acb4",
+          "md5": "edd8b460bb91acde9396e8cc18af41d6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.twarner.gradle",
+          "module": "common-utils",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "org.jooq",
+          "module": "jooq-codegen",
+          "version": {
+            "requires": "3.20.2"
+          }
+        },
+        {
+          "group": "com.github.docker-java",
+          "module": "docker-java-core",
+          "version": {
+            "requires": "3.4.2"
+          }
+        },
+        {
+          "group": "com.github.docker-java",
+          "module": "docker-java-transport-zerodep",
+          "version": {
+            "requires": "3.4.2"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "db-1.0.6.jar",
+          "url": "db-1.0.6.jar",
+          "size": 44797,
+          "sha512": "17d39bb10fd4f2b529a4c3066e65546f6ee3381177168788dcd67122e139711919af8720bdf98c801e0a3e378375be9d0a3fb11dc461c41b6d9ebcd585fbd917",
+          "sha256": "a05d8bbcfb81c67b08a23e44723ef8e21707ac44e791081cc8e33348080ea04b",
+          "sha1": "4777d18166c03a3a3e2869db91ce9f66f707acb4",
+          "md5": "edd8b460bb91acde9396e8cc18af41d6"
+        }
+      ]
+    }
+  ]
+}

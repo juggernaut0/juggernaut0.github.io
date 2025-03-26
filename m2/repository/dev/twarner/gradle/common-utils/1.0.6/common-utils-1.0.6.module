@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.twarner.gradle",
+    "module": "common-utils",
+    "version": "1.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-utils-1.0.6.jar",
+          "url": "common-utils-1.0.6.jar",
+          "size": 3996,
+          "sha512": "6a1bd5c1f54add46f0756884254d63a37b093510b62e913d7d358f2e26ec5429e13d6072809df32399db345f0d284300aa67ce9c88b08431efcf0d13028c0b0f",
+          "sha256": "652b2f90a46b76ff266b9beeb70576ab7d99e0878bc177f3676d30ce49026002",
+          "sha1": "48c269948be4b6357d4f7e027899a1f85db61dff",
+          "md5": "f74d8f074c0befd4b7d67f17c29b48a2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-utils-1.0.6.jar",
+          "url": "common-utils-1.0.6.jar",
+          "size": 3996,
+          "sha512": "6a1bd5c1f54add46f0756884254d63a37b093510b62e913d7d358f2e26ec5429e13d6072809df32399db345f0d284300aa67ce9c88b08431efcf0d13028c0b0f",
+          "sha256": "652b2f90a46b76ff266b9beeb70576ab7d99e0878bc177f3676d30ce49026002",
+          "sha1": "48c269948be4b6357d4f7e027899a1f85db61dff",
+          "md5": "f74d8f074c0befd4b7d67f17c29b48a2"
+        }
+      ]
+    }
+  ]
+}

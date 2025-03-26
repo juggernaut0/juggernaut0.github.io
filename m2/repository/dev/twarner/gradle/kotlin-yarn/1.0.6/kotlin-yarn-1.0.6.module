@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.twarner.gradle",
+    "module": "kotlin-yarn",
+    "version": "1.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlin-yarn-1.0.6.jar",
+          "url": "kotlin-yarn-1.0.6.jar",
+          "size": 30679,
+          "sha512": "a29856c02f0664d5fa86652278f3aad47a0eec3d0b3be411d3907351c78436262faff4b49fa887d2cb2a588df8c380c93aa2e75e9f9c66061e0e8eb7df8cac62",
+          "sha256": "fdd68f5797b9e1edf3db143dd523b3c231dbaa6e789bf2747336686307132b9e",
+          "sha1": "cbb86b0bded86f596dd2b3bbc619c7bb14c6b339",
+          "md5": "ad63ea1ea0842dedbd1031fd681e7874"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin"
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-yarn-1.0.6.jar",
+          "url": "kotlin-yarn-1.0.6.jar",
+          "size": 30679,
+          "sha512": "a29856c02f0664d5fa86652278f3aad47a0eec3d0b3be411d3907351c78436262faff4b49fa887d2cb2a588df8c380c93aa2e75e9f9c66061e0e8eb7df8cac62",
+          "sha256": "fdd68f5797b9e1edf3db143dd523b3c231dbaa6e789bf2747336686307132b9e",
+          "sha1": "cbb86b0bded86f596dd2b3bbc619c7bb14c6b339",
+          "md5": "ad63ea1ea0842dedbd1031fd681e7874"
+        }
+      ]
+    }
+  ]
+}
