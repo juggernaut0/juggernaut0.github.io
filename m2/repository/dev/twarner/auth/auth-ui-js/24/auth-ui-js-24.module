@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../auth-ui/24/auth-ui-24.module",
+    "group": "dev.twarner.auth",
+    "module": "auth-ui",
+    "version": "24",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "dev.twarner.auth",
+          "module": "auth-common",
+          "version": {
+            "requires": "24"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0.kui",
+          "module": "kui",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-ui-js-24.klib",
+          "url": "auth-ui-js-24.klib",
+          "size": 25993,
+          "sha512": "7549812cc85e7c1c5832d4e2f05f7ab861360326b119599e955280778e44f73c073b1b1965338eae2908a49a2042a6816cebd294d9d901cc6a901713adb9ae2b",
+          "sha256": "5801177217f7cbe6fb2335f2ae99b323302feb07bbf2de56f8674a8ea724a604",
+          "sha1": "42e3625ea080ec9843e192434f8206001b6400ef",
+          "md5": "d3e9659db7213e4aa42866f1be46c653"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "dev.twarner.auth",
+          "module": "auth-common",
+          "version": {
+            "requires": "24"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0.kui",
+          "module": "kui",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "async-lite",
+          "version": {
+            "requires": "0.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-ui-js-24.klib",
+          "url": "auth-ui-js-24.klib",
+          "size": 25993,
+          "sha512": "7549812cc85e7c1c5832d4e2f05f7ab861360326b119599e955280778e44f73c073b1b1965338eae2908a49a2042a6816cebd294d9d901cc6a901713adb9ae2b",
+          "sha256": "5801177217f7cbe6fb2335f2ae99b323302feb07bbf2de56f8674a8ea724a604",
+          "sha1": "42e3625ea080ec9843e192434f8206001b6400ef",
+          "md5": "d3e9659db7213e4aa42866f1be46c653"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "auth-ui-js-24-sources.jar",
+          "url": "auth-ui-js-24-sources.jar",
+          "size": 3984,
+          "sha512": "1e3a35c23a12de8ddec77da55402aa00fbfe6c342c471bfb09f651375457ca07403f86f70dd980727d92e973fa3458250d89f9972343c70683a633ae88f8c2ef",
+          "sha256": "eb41d2ad9c885f7b0b48d07e133fc89ab315dc4f20a947491d5a0223dd6ea701",
+          "sha1": "5c7da08633171f2897846206db286fc1cc51e3d9",
+          "md5": "6473203a8f7d77a7cdc5bddcd6f0a423"
+        }
+      ]
+    }
+  ]
+}

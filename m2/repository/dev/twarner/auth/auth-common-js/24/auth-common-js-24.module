@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../auth-common/24/auth-common-24.module",
+    "group": "dev.twarner.auth",
+    "module": "auth-common",
+    "version": "24",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-js-24.klib",
+          "url": "auth-common-js-24.klib",
+          "size": 21710,
+          "sha512": "05d47de4ceb4879a696209d7a11a0e722d38f79dcf8805aa4b01beaf9f0d53fcb04af45eb9e30f4b939cbf3a43ca5fa4820070d814aa3e6054c514898520814d",
+          "sha256": "f51520a70d79c17b7358592d5f65fabd276abd76c0b697fa9e08e1f45fc30eb5",
+          "sha1": "c320a5a80ba7091b05be53cd649431a76f05d9b6",
+          "md5": "1de8b482a5870b9afe63ca36a090d06f"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-js-24.klib",
+          "url": "auth-common-js-24.klib",
+          "size": 21710,
+          "sha512": "05d47de4ceb4879a696209d7a11a0e722d38f79dcf8805aa4b01beaf9f0d53fcb04af45eb9e30f4b939cbf3a43ca5fa4820070d814aa3e6054c514898520814d",
+          "sha256": "f51520a70d79c17b7358592d5f65fabd276abd76c0b697fa9e08e1f45fc30eb5",
+          "sha1": "c320a5a80ba7091b05be53cd649431a76f05d9b6",
+          "md5": "1de8b482a5870b9afe63ca36a090d06f"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "auth-common-js-24-sources.jar",
+          "url": "auth-common-js-24-sources.jar",
+          "size": 1821,
+          "sha512": "53e4781b9fd55c8a5f4ec9683744f63556f017bb188b8d84e80821e2668c1abcc11db4cd4ed73bae94149550b48c41e8120bbde16b64dfbe459facf668cfb001",
+          "sha256": "5f9a2898653910ab85496857a0007f9f548214419061516898c199b04469700a",
+          "sha1": "6d4b9fb49db5fc3033968bdba5ce6fd2ea72cc0d",
+          "md5": "00ca8966422dc9ad41b7de4e5a59c779"
+        }
+      ]
+    }
+  ]
+}

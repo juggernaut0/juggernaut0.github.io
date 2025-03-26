@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.twarner.auth",
+    "module": "auth-plugins-ktor",
+    "version": "24",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils-ktor",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "dev.twarner.auth",
+          "module": "auth-common",
+          "version": {
+            "requires": "24"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-plugins-ktor-24.jar",
+          "url": "auth-plugins-ktor-24.jar",
+          "size": 11797,
+          "sha512": "8ea49dd41d8b1ee5909a30c28e7fb9f3dec9a7ed2d114d136e84c47facbe374616f90e990b41c9379e893f8aa44d884545095d422697fae5efe79de8ae1b4915",
+          "sha256": "70795974bba6384b6995cbc360503b380697b832ca3337ea5af10c82db6d388c",
+          "sha1": "85a269657055f93d4caaa3544857b8ecf52a54ad",
+          "md5": "6b9d8aab3a37592b90607a293c168525"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.juggernaut0",
+          "module": "multiplatform-utils-ktor",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "dev.twarner.auth",
+          "module": "auth-common",
+          "version": {
+            "requires": "24"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-plugins-ktor-24.jar",
+          "url": "auth-plugins-ktor-24.jar",
+          "size": 11797,
+          "sha512": "8ea49dd41d8b1ee5909a30c28e7fb9f3dec9a7ed2d114d136e84c47facbe374616f90e990b41c9379e893f8aa44d884545095d422697fae5efe79de8ae1b4915",
+          "sha256": "70795974bba6384b6995cbc360503b380697b832ca3337ea5af10c82db6d388c",
+          "sha1": "85a269657055f93d4caaa3544857b8ecf52a54ad",
+          "md5": "6b9d8aab3a37592b90607a293c168525"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "auth-plugins-ktor-24-sources.jar",
+          "url": "auth-plugins-ktor-24-sources.jar",
+          "size": 1439,
+          "sha512": "2c9dc690b82a0cb20bfe564b418eafd62d52172c1ed9c6316844c139456fcd3a5e934957a88dc13d2668fde74ee70861d4107519c30c4f22d74ef9c0bb24c11c",
+          "sha256": "028fccc8b133034016c9015a81469db5bfb66c5d61529629aeac4dc784b5ed1c",
+          "sha1": "0275f62ce4390e0323cad1b3900fc341fa79c61c",
+          "md5": "7c7d4370c951ad7cebb731d318b979ee"
+        }
+      ]
+    }
+  ]
+}
